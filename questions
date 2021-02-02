@@ -1,0 +1,128 @@
+Q1) What is semantic HTML?
+ANS: Semantic HTML is a coding style. It is the use of HTML markup to reinforce the semantics or meaning of the content. For example: In semantic HTML <b> </b> tag is not used for bold statement as well as <i> </i> tag is used for italic. Instead of these we use <strong></strong> and <em></em> tags.
+
+Q2) What is an image map?
+ANS: An image map is used for linking many different web pages using a single image. It is represented by <map> tag. You can define shapes in images that you want to include as part of an image mapping.
+
+Q3) What are the tags used to separate a section of texts?
+ANS: 
+  There are three tags that can be used to separate the texts:
+  <br> tag – Usually <br> tag is used to separate the line of text. It breaks the current line and conveys the flow to the next line
+  <p> tag – This contains the text in the form of a new paragraph.
+  <blockquote> tag – It is used to define a large quoted section. If you have a large quotation, then put the entire text within <blockquote>……….</blockquote> tag.
+  
+Q4) Is there any hierarchy that is followed on the style sheets?
+ANS: Yes, there is a hierarchy that is followed on the style sheet, which includes three different style definitions. The first definition, which is closest to the actual tag, takes precedence. The second definition, which is Inline style, takes priority over the embedded style sheet. The third definition is the external style sheets, which take priority over the others.
+
+Q5) Explain Description Lists in HTML.
+ANS: The description list allows us to add a description to each element of the list. The <dl> tag defines the description list, the <dt> tag defines the term (name), and the <dd> tag describes each term. 
+
+Q6) What are the various elements provided by HTML5 for media content?
+ANS: 
+  HTML provides the support of following elements for representing the media content.
+  <audio> – It defines the sound content.
+  <video> – It represents the video content that needs to be attached to a Web page.
+  <source> – This tag defines the source of video and audio.
+  <embed > – It provides a container for an external application.
+  <track> – It defines text tracks for video and audio.
+  
+Q7) What is the difference between Semantic and Non-semantic elements?
+ANS:
+    Semantic – These elements clearly describe their content like <img>, <form>, <table> etc.
+    Non-semantic – These elements are without any definition. They don’t describe anything about their structure such as <span> and <div>.
+
+Q8) How can we get the geographical position of a user in HTML5?
+ANS: Yes, HTML5 can retrieve the location of a user with the use of Geolocation API. It provides getCurrentPosition() method to get the user’s current position.
+
+Q9) Explain the key differences between SVG and Canvas?
+ANS: 
+  Canvas is resolution dependent while SVG is not.
+  Canvas does not provide any support for event handlers while SVG does provide the support for event handlers.
+  Canvas is suitable for graphic-intensive games while SVG is not suitable for gaming.
+  Canvas is suitable for small rendering areas while SVG is suitable for large rendering areas like Google maps.
+  Canvas provides a less interactive animated user interface. Whereas, the interface provided by SVG is very highly interactive.
+  
+Q10) What is the use of Drag and Drop in HTML5?
+ANS: Drag and Drop (DnD) is a powerful User Interface concept, which enables the user to copy, reorder and delete any number of items, just with the help of mouse click. To do this, the user has to click and hold the mouse button over an element, drag to the required location, and finally release the button to drop the element there.
+
+Q11) What is output element in HTML5?
+ANS: Output element gets used when you design a form, that displays the result of a computation. Along with the standard global attributes, <output> also accepts for, form, and name attributes.
+
+Q12) What is the major difference between, Transitional and Strict doctype?
+ANS: 
+  Strict – This DTD contains all HTML components and properties. However, it does NOT INCLUDE presentational or expostulated components (like text style). It does not permit the use of Framesets.
+  Transitional – This DTD contains all HTML components and properties, INCLUDING presentational and belittled components (like textual style). It does not allow the use of Framesets.
+
+Q13) How do you change the number type in the middle of a list?
+ANS: The <li> tag includes two attributes – type and value. The type attribute can be used to change the numbering type for any list item. The value attribute can change the number index.
+
+Q14) How do you create multicolored text in a webpage?
+ANS: To create text with different colors, use the <font color=”color”>…</font> tags for every character that you want to apply color. You can use this tag combination as many times as needed, surrounding a single character or an entire word.
+
+Q15) Can I specify fractional weight values such as 670 or 973 for font weight?
+ANS: Implementation largely depends on the browser, but the standard does not support fractional weight values. Acceptable values must end with two zeroes.
+
+Q16) What is the hierarchy that is being followed when it comes to style sheets?
+ANS: If a single selector includes three different style definitions, the definition that is closest to the actual tag takes precedence. Inline style takes priority over embedded style sheets, which takes priority over external style sheets.
+
+Q17) When is it appropriate to use frames?
+ANS: Frames can make navigating a site much easier. If the main links to the site are located in a frame that appears at the top or along the edge of the browser, the content for those links can be displayed in the remainder of the browser window.
+
+Q18) Explain five new input types provided by HTML5 for forms?
+ANS: 
+  Following are the important, new data types offered by HTML5:
+  Date: It allows the user to select a date.
+  datetime-local: This input type allows the user to select a date and time without time zone.
+  datetime: This input type allows the user to select a date and time with time zone.
+  month: It enables the user to select a month and year
+  email: These input fields used to contain an e-mail address.
+
+Q19) Can we change inline elements into block-level elements?
+ANS: Yes, we can change inline elements into block-level elements by adding display equal to block in its CSS tag. Writing it will change the inline elements into block elements and then inline elements will also take the full width of the container.
+
+Q20) Why Meta tags are used in HTML?
+ANS: Meta tags in HTML are used by the developer to tell the browser about the page description, author of the template, character set, keywords and many more.
+
+Q21) Differentiate between HTML and XHTML.
+ANS: 
+  HTML stands for Hypertext Markup Language, whereas XHTML stands for Extensible Markup Language.
+  A static webpage is an HTML web page and dynamic web pages are XHTML.
+  XHTML are more stricter than HTML.
+  An XML application of HTML is defined as XHTML.
+  All modern browsers support XHTML.
+
+Q22) How to create a hyperlink in HTML?
+ANS: The HTML provides an anchor tag to create a hyperlink that links one page to another page. These tags can appear in any of the following ways:
+  Unvisited link - It is displayed, underlined and blue.
+  Visited link - It is displayed, underlined and purple.
+  Active link - It is displayed, underlined and red.
+ 
+Q23) What is the use of figcaption tag in HTML 5?
+ANS: The <figcaption> element is used to provide a caption to an image. It is an optional tag and can appear before or after the content within the <figure> tag. The <figcaption> element is used with <figure> element and it can be placed as the first or last child of the <figure> element.
+
+Q24) When are comments used in HTML?
+ANS: To understand the code easily, you can add code comments to your HTML document. These are not displayed in the browser, but they help you in leaving notes for yourself and other developers as to what a section of HTML is for. The start of the comment is denoted by <!– and the end is marked by — >. Anything in the middle will be completely ignored, even if it contains valid HTML.
+
+Q25) What are the entities in HTML?
+ANS: The HTML character entities are used as a replacement for reserved characters in HTML. You can also replace characters that are not present on your keyboard by entities. These characters are replaced because some characters are reserved in HTML.
+
+Q26) What is the relationship between the border and rule attributes?
+ANS: Default cell borders, with a thickness of 1 pixel, are automatically added between cells if the border attribute is set to a nonzero value. Similarly, If the border attribute is not included, a default 1-pixel border appears when the rules attribute is added to the <table> tag.
+
+Q27) List the media types and formats supported by HTML.
+ANS: HTML supports a wide range of media formats for sound, music, videos, movies, and animations. Some of the extensions supported by each media format are:
+  Images– png, jpg, jpeg, gif, apng, svg, bmp, BMP ico, png ico
+  Audio– MIDI, RealAudio, WMA, AAC, WAV, Ogg, MP3, MP4
+  Video– MPEG, AVI, WMV, QuickTime, RealVideo, Flash, Ogg, WebM, MPEG-4 or MP4
+
+Q28) What is Cell Spacing and Cell Padding?
+ANS: Cell Spacing is referred to as the space or gap between the two cells of the same table. Whereas, Cell Padding is referred to as the gap or space between the content of the cell and cell wall or cell border.
+
+Q29) What are logical and physical tags in HTML?
+ANS: 
+  Logical tags are used to tell the meaning of the enclosed text. The example of the logical tag is <strong> </strong> tag. When we enclose the text in the strong tag, it tells the browser that enclosed text is more important than other texts.
+  Physical tags are used to tell the browser how to display the text enclosed in the physical tag. Some of the examples of physical tags are <b>, <big>, <i>.
+
+Q30) What happens if there is no text between the tags? Does this affect the display of the HTML file?  
+ANS:  If there is no text present between the tags, there is nothing to format. Therefore, no formatting will appear. Some tags, such as the tags without a closing tag like the <img> tag, do not require any text between them.
+
